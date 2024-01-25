@@ -28,8 +28,9 @@ Developed by the students of the Computer Science department at Heinrich Heine u
    Run the following command to install the Conda environment:
    ```bash
    conda env create -p ./env -f environment.yml
-3. **Add the Images folder to the MedVisionaries folder to avoid path conflicts**.
-4. **Run the pipeline**
+3. Set the Python interpreter to the project environment.
+4. **Add the Images folder to the MedVisionaries folder to avoid path conflicts**.
+5. **Run the pipeline**
 In the main.py script you can enter the file path to the image that should be classified. The predicted age will be printed in the console. 
 ## Application Structure
 
