@@ -22,7 +22,7 @@ Developed by the students of the Computer Science department at Heinrich Heine u
 ## How to Start the App
 
 1. **Navigate to the Hachathlon Folder**:  
-   Using the command line, navigate to the Hachathlon folder. You can do this by running a command like `cd path_to_Hachathlon`, where `path_to_Hachathlon` is the path to your Hachathlon folder.
+   Using anaconda promot navigate to the Hachathlon folder.
 
 2. **Install the Conda Environment**:  
    Run the following command to install the Conda environment:
