@@ -29,7 +29,8 @@ Developed by the students of the Computer Science department at Heinrich Heine u
    ```bash
    conda env create -p ./env -f environment.yml
 3. **Add the Images folder to the MedVisionaries folder to avoid path conflicts**.
-4. **Run the App**
+4. **Run the pipeline**
+In the main.py script you can enter the file path to the image that should be classified. The predicted age will be printed in the console. 
 ## Application Structure
 
 The application is organized into several Python scripts:
@@ -38,8 +39,7 @@ The application is organized into several Python scripts:
 - **model.py**: Contains the logic for the age prediction model.
 - **preprocessing.py**: Includes functions for image preprocessing.
 
-## Run the pipeline
-In the main.py script you can enter the file path to the image that should be classified. The predicted age will be printed in the console. 
+
 
 ## Key Functions
 - `Preprocessor(image_path)`: Processes the image for model input.
